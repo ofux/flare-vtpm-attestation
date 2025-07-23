@@ -3,7 +3,7 @@ pragma solidity ^0.8.27;
 
 import {FlareVtpmAttestation} from "../contracts/FlareVtpmAttestation.sol";
 import {OidcSignatureVerification} from "../contracts/verifiers/OidcSignatureVerification.sol";
-import {Upgrades} from "@openzeppelin/openzeppelin-foundry-upgrades/Upgrades.sol";
+import {Upgrades} from "@openzeppelin/foundry-upgrades/Upgrades.sol";
 import {Script, console} from "forge-std/Script.sol";
 
 contract FlareVtpmAttestationScript is Script {
